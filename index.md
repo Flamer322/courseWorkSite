@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Компьютерные комплектующие</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width">
+    <link rel="apple-touch-icon" sizes="57x57" href="favs/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favs/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favs/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favs/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favs/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favs/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favs/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favs/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favs/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favs/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favs/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favs/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favs/favicon-16x16.png">
+    <link rel="manifest" href="favs/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favs/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+<script src="funcs.js"></script>
+<div class="toTop"></div>
+<header class="header">
+    <div class="container">
+        <div class="header_body">
+            <div class="header_burger">
+                <span></span>
+            </div>
+            <nav class="header_menu">
+                <ul class="header_list">
+                    <li><a class="header_link" href="index.html">Главная</a></li>
+                    <li><a class="header_link" href="cpu.html">Процессор</a></li>
+                    <li><a class="header_link" href="gpu.html">Видеокарта</a></li>
+                    <li><a class="header_link" href="str.html">HDD/SSD</a></li>
+                    <li><a class="header_link" href="ram.html">ОЗУ</a></li>
+                    <li><a class="header_link" href="etc.html">Прочее</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<div class="content">
+    <div class="container">
+        <h1>Комплектующие персонального компьютера</h1>
+        <div class="content_split">
+            <div class="content_image"><img src="pics/pc.png"></div>
+            <div class="content_text">
+                <p>Персональный Компьютер (ПК), для большинства состоит из монитора, мышки и клавиатуры, процессора, видеокарты, но на самом деле компонентов (комплектующих) в компьютере больше, и основные компоненты находятся в корпусе, правильней его называть системный блок.</p>
+                <p>Системный блок состоит из:</p>
+                <ul>
+                    <li>Центрального процессора (CPU);</li>
+                    <li>Материнской платы (Motherboard);</li>
+                    <li>Оперативной памяти (RAM);</li>
+                    <li>Видеокарты (GPU);</li>
+                    <li>Запоминающего устройства (HDD/SSD);</li>
+                    <li>Блока питания;</li>
+                    <li>Корпуса.</li>
+                </ul>
+                <p>Конечно это не все что может находиться в системном блоке, также устанавливаются множество других внутренних устройств:</p>
+                <ul>
+                    <li>Модемы, сетевые платы;</li>
+                    <li>FM-, TV-тюнеры;</li>
+                    <li>RAID контроллеры;</li>
+                    <li>Звуковые карты;</li>
+                    <li>Оптически привод (CD-ROM, DVD-ROM).</li>
+                </ul>
+                <p>Это то, что может быть в системном блоке, кроме системного блока к частям компьютера относятся:</p>
+                <ul>
+                    <li>Мониторы;</li>
+                    <li>Манипуляторы (сюда можно отнести, клавиатуры, мыши, джойстики, трекболы);</li>
+                    <li>Принтеры, сканеры, факсы, МФУ;</li>
+                    <li>Внешние устройства (удлинители USB, модемы, роутеры, усилители звука и т.д.);</li>
+                    <li>Источники беспербойного питания, фильтры и т.д.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
