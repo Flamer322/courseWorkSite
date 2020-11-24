@@ -16,7 +16,8 @@ h2{
     line-height: 1.05em;
 }
 
-body, html{
+body{
+    margin: 0px 0px 150px 0px;
     height: 100%;
     background: url(bgd.svg);
 }
