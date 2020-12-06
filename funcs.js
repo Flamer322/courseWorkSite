@@ -41,4 +41,3 @@ function widget(words){
         : w.addEventListener("YaMarketAffiliateLoad", start);
     })(window);
 }
-
