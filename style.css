@@ -143,6 +143,17 @@ body{
     user-select: none;
 }
 
+.shc {
+    margin: 30px 0px 0px 0px;
+    padding: 1px 1px 1px 1px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.1)
+}
+
+.widg {
+    margin: 3%;
+}
+
 @media (max-device-width: 767px){
     html{
         background-size: 150%;
@@ -255,15 +266,4 @@ body{
     .content_text{
         margin: 0px 10px 0px 10px;
     }
-}
-
-.shc {
-    margin: 30px 0px 0px 0px;
-    padding: 1px 1px 1px 1px;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.1)
-}
-
-.widg {
-    margin: 3%;
 }
